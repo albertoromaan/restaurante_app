@@ -61,4 +61,5 @@ def detail_item(id_item):
     return render_template('detail_item.html', item=item)
 
 if __name__ == '__main__':
+    # Solo se ejecuta si corres "python app.py" manualmente (no en Railway)
     app.run(debug=True)
