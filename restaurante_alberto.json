@@ -1,0 +1,150 @@
+[
+    {
+      "restaurante": {
+        "nombre": "Alberto Comidas",
+        "ubicacion": "Calle Kiko N 81, Madrid",
+        "fecha_apertura": "2025-01-01T00:00:00Z",
+        "telefono": "+34 698 76 54 32",
+        "email": "contact@albertocomidas.com",
+        "horario": {
+          "lunes_viernes": "12:00-01:00",
+          "sabado_domingo": "11:00-02:00"
+        },
+        "menu": [
+          {
+            "categoria": "Hamburguesas",
+            "items": [
+              {
+                "nombre": "Simple",
+                "precio_eur": 3.00,
+                "descripcion": "Queso, Carne y Pan",
+                "id_item": "64c0b1a9d6f4e5c21f000001",
+                "foto": "VGhpcyBpcyBhIHRlc3QgaW1hZ2U="
+              },
+              {
+                "nombre": "Hamburguesa BBQ",
+                "precio_eur": 5.00,
+                "descripcion": "Queso, Carne, Pan, Pulled Pork, Bacon y Salsa BBQ",
+                "id_item": "64c0b1a9d6f4e5c21f000002",
+                "foto": "VGhpcyBpcyBhIHRlc3QgaW1hZ2U="
+              },
+              {
+                "nombre": "Hamburguesa Americana",
+                "precio_eur": 6.00,
+                "descripcion": "Queso, Carne, Pan, Lechuga, Huevo y nuestra Salsa Especial",
+                "id_item": "64c0b1a9d6f4e5c21f000003",
+                "foto": "VGhpcyBpcyBhIHRlc3QgaW1hZ2U="
+              }
+            ]
+          },
+          {
+            "categoria": "Pizzas",
+            "items": [
+              {
+                "nombre": "Margarita",
+                "precio_eur": 4.00,
+                "descripcion": "Tomate, queso y orégano",
+                "id_item": "64c0b1a9d6f4e5c21f000004",
+                "foto": "VGhpcyBpcyBhIHRlc3QgaW1hZ2U="
+              },
+              {
+                "nombre": "Barbacoa",
+                "precio_eur": 6.00,
+                "descripcion": "Tomate, Queso, Orégano, York, Bacon y Salsa BBQ",
+                "id_item": "64c0b1a9d6f4e5c21f000005",
+                "foto": "VGhpcyBpcyBhIHRlc3QgaW1hZ2U="
+              },
+              {
+                "nombre": "Carbonara",
+                "precio_eur": 7.00,
+                "descripcion": "Tomate, Queso, Orégano, Champiñones, Bacon y Salsa Carbonara",
+                "id_item": "64c0b1a9d6f4e5c21f000006",
+                "foto": "VGhpcyBpcyBhIHRlc3QgaW1hZ2U="
+              }
+            ]
+          }
+        ],
+        "servicios": [
+          {
+            "nombre": "Reparto a Domicilio",
+            "descripcion": "Repartimos la comida a domicilio en un tiempo récord.",
+            "id_servicio": "64c0b1a9d6f4e5c21f000007",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          },
+          {
+            "nombre": "Ofertas",
+            "descripcion": "En tu cumpleaños te hacemos un 2x1 en cualquier cosa de nuestra carta.",
+            "id_servicio": "64c0b1a9d6f4e5c21f000008",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          },
+          {
+            "nombre": "Servicio",
+            "descripcion": "En menos de 10 minutos servimos la comida a tu mesa.",
+            "id_servicio": "64c0b1a9d6f4e5c21f000009",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          },
+          {
+            "nombre": "Reservas",
+            "descripcion": "Reserva sitio desde esta misma web.",
+            "id_servicio": "64c0b1a9d6f4e5c21f000010",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          }
+        ],
+        "equipo": [
+          {
+            "nombre": "Jhon Cobra",
+            "rol": "Cocinero",
+            "descripcion": "Cocinero principal con más de 20 años de experiencia en el sector.",
+            "id_miembro": "64c0b1a9d6f4e5c21f000011",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          },
+          {
+            "nombre": "David Evil",
+            "rol": "Ayudante de Cocina",
+            "descripcion": "Ayudante de cocina con más de 10 años trabajando junto al cocinero principal.",
+            "id_miembro": "64c0b1a9d6f4e5c21f000012",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          },
+          {
+            "nombre": "Mario Santos",
+            "rol": "Encargado Principal",
+            "descripcion": "Encargado principal que gestiona reservas y asegura la perfección en la cocina.",
+            "id_miembro": "64c0b1a9d6f4e5c21f000013",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          },
+          {
+            "nombre": "Maria Baeza",
+            "rol": "Camarera",
+            "descripcion": "Camarera con más de 10 años de experiencia en el sector.",
+            "id_miembro": "64c0b1a9d6f4e5c21f000014",
+            "foto": "U2FtcGxlIGltYWdlIGRhdGE="
+          }
+        ],
+        "sobre_nosotros": {
+          "historia": "Alberto perdió su empleo a principios de año y decidió montar una pequeña cocina en su barrio. Empezó vendiendo bocadillos desde su ventana, y en poco tiempo, Alberto Comidas se volvió el lugar favorito de todos: comida casera, precios justos y mucho sabor.",
+          "visiones": [
+            "Gran Clientela",
+            "Ampliación del Local",
+            "Crear más locales"
+          ]
+        },
+        "descuentos": [
+          {
+            "titulo": "50% Descuento",
+            "descripcion": "Todos los Domingos, solo en el mes de Mayo.",
+            "id_descuento": "64c0b1a9d6f4e5c21f000015"
+          },
+          {
+            "titulo": "15% Descuento",
+            "descripcion": "Por reservar online por primera vez.",
+            "ventajas": [
+              "Aseguras un sitio en el Local.",
+              "Puedes escoger la mesa que más te guste.",
+              "Preferencia ante los que no reservan online."
+            ],
+            "id_descuento": "64c0b1a9d6f4e5c21f000016"
+          }
+        ]
+      }
+    }
+]

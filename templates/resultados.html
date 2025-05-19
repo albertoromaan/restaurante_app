@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Resultados de Búsqueda - Alberto Comidas{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h2>Resultados de la Búsqueda</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                <tr>
+                    <td>{{ item.nombre }}</td>
+                    <td>{{ item.categoria }}</td>
+                    <td><a href="/item/{{ item.id_item }}">Detalle</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="/buscador" class="btn btn-primary">Volver a Buscar</a>
+    </div>
+</div>
+{% endblock %}

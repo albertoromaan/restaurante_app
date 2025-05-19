@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalles de {{ item.nombre }} - Alberto Comidas{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h2>{{ item.nombre }}</h2>
+        <p><strong>Categoría:</strong> {{ item.categoria }}</p>
+        <p><strong>Descripción:</strong> {{ item.descripcion }}</p>
+        <p><strong>Precio:</strong> {{ item.precio_eur }}€</p>
+        <a href="/buscador" class="btn btn-primary">Volver a Buscar</a>
+    </div>
+</div>
+{% endblock %}

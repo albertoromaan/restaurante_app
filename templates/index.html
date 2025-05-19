@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - Alberto Comidas{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-5">
+    <div class="container py-5 text-center">
+        <h1>Bienvenidos a Alberto Comidas</h1>
+        <a href="/buscador">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" class="img-fluid" style="max-width: 200px;">
+        </a>
+        <p>El mejor restaurante desde 2025</p>
+    </div>
+</div>
+{% endblock %}

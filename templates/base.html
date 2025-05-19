@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Alberto Comidas{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="container-fluid nav-bar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="/" class="navbar-brand">
+                    <h1 class="m-0 text-white">Alberto Comidas</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="/" class="nav-item nav-link active">Inicio</a>
+                        <a href="/buscador" class="nav-item nav-link">Buscar</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <!-- Pie de página -->
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0">
+        <div class="container text-center py-5">
+            <p class="m-0">Creada por @albertoromaan_</p>
+        </div>
+    </div>
+</body>
+</html>
